@@ -1,5 +1,5 @@
 # proyecto - semestral: Caos News
 
-Integrantes: Daniel Caro - Soqus /n
-             Sebastian Torres - Moco /n
-             Luciano Portus
+Integrantes: Daniel Caro (Soqus)   
+             Rodrigo Rojas (rodrigosebastiantorresrojas)   
+             Luciano Portus   
