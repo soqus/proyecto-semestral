@@ -1,9 +1,9 @@
-# proyecto - semestral: Caos News
+# proyecto - semestral: Mecanicos Rayo Makween
 
 ## Integrantes:
 
 Daniel Caro (Soqus)   
-Sebastian Torres (rodrigosebastiantorresrojas)   
-Luciano Portus   
+Sebastian Torres (rodrigosebastiantorresr
+Luciano Porto
 
-## Lider de grupo: Daniel Caro
+## Lider de grupo: Daniel Caronidos  
