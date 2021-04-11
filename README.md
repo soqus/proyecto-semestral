@@ -3,7 +3,7 @@
 ## Integrantes:
 
 Daniel Caro (Soqus)   
-Rodrigo Rojas (rodrigosebastiantorresrojas)   
+Sebastian Torres (rodrigosebastiantorresrojas)   
 Luciano Portus   
 
 ## Lider de grupo: Daniel Caro
