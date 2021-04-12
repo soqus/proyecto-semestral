@@ -3,7 +3,7 @@
 ## Integrantes:
 
 Daniel Caro (Soqus)   
-Sebastian Torres (rodrigosebastiantorresr
+Sebastian Torres (rodrigosebastiantorresr)
 Luciano Porto
 
 ## Lider de grupo: Daniel Caronidos  
