@@ -12,7 +12,7 @@ body{
 
 header{
     width: 0%;
-    background-color: #F2A30F;
+    background-color: #8C7737;
     border-bottom: 2px #000 solid;
     font-size: x-small;
 
@@ -24,13 +24,13 @@ header li a {
     text-decoration: none;
 }
 header li a:hover {
-    background-color: #F28E13;
+    background-color: #BFA760;
     color: white;
 }
 li a{
     display: inline;
     color: black;
-    background-color: #F2A30F;
+    background-color: #BFA041;
     text-decoration: none;
 
 
@@ -41,18 +41,22 @@ li a:hover{
     background-color: #F2F2F2;
 }
 
-#logo {
-    border-radius: 50%;
-    padding: 10px;
+
     
-  }
+
 /*Fin header*/
 
 /*Inicio menu*/
 #logo{
+    border-radius: 50%;
+    float: left;
     justify-content: left;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+#menu{
+    padding: 2% 5% 2% 5%;
 }
 /*carrusel*/
 
@@ -68,10 +72,16 @@ li a:hover{
 
 /*footer*/
 
-footer div{
+footer{
     background-color: black;
     color: white;
-    margin: 2%;
+    height: 300px;
+}
+.contacto{
+    padding-top: 30px;
+}
+.quienes{
+    padding-top: 30px;
 }
 
 
@@ -87,11 +97,13 @@ div #bott-2{
 }
 
 div #bott-3{
+    border-radius: 50%;
     float: right;
+    /*padding: 50%;
     /*width: 100%;*/
 }
 
-/*Diferenciar cajas, borrar al final*/
+/*Diferenciar cajas, borrar al final
 .raw{
  border: 2px #000 solid;   
 }
