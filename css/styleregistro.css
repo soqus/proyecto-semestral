@@ -103,6 +103,28 @@ div #bott-2{
 div #bott-3{
     border-radius: 50%;
     float: right;
+<<<<<<< HEAD
     padding-top: 30px;
     margin-bottom: 0 auto;
 }
+=======
+    /*width: 100%;*/
+}   
+
+/* ojo 2 */
+/*Diferenciar cajas, borrar al final*/
+.raw{
+    border: 2px #000 solid;   
+   }
+   
+   
+   
+   .grid-container {
+       display: grid;
+       grid-template-columns: 80px 200px auto 30px;
+       grid-gap: 10px;
+       background-color: #2196F3;
+       padding: 10px;
+     }
+     /*  */
+>>>>>>> bd2de4b0b8d3997a2c3a55ca666c8ef51ff54d2e
