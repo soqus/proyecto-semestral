@@ -103,11 +103,6 @@ div #bott-2{
 div #bott-3{
     border-radius: 50%;
     float: right;
-<<<<<<< HEAD
-    padding-top: 30px;
-    margin-bottom: 0 auto;
-}
-=======
     /*width: 100%;*/
 }   
 
@@ -119,7 +114,7 @@ div #bott-3{
    
    
    
-   .grid-container {
+.grid-container {
        display: grid;
        grid-template-columns: 80px 200px auto 30px;
        grid-gap: 10px;
@@ -127,4 +122,32 @@ div #bott-3{
        padding: 10px;
      }
      /*  */
->>>>>>> bd2de4b0b8d3997a2c3a55ca666c8ef51ff54d2e
+
+     /* Botón  registrar*/
+
+ .boton{
+        width: 40px;
+        height:50%;
+        background-color:#F2A30F;
+        margin: 0px;
+        padding:5%;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: px;
+        border-radius: 150px;
+        font-size:11px;
+        line-height:80%;
+        text-transform: uppercase;
+        /* me lo deja a la derecha */
+        float:right;
+      }
+.boton:hover{
+        opacity: 0.50;
+        -moz-opacity: .50;
+        filter:alpha (opacity=50);
+      }
+.boton a{
+        color:#fff;
+        text-decoration:none;
+        /* padding no cambia aqui */
+        padding: 0px 0px 0px 0px;
+      }
