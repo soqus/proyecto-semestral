@@ -93,14 +93,13 @@ div #bott-1 {
 
 div #bott-2{
     float: left;
-    padding-top: 30px;
     /*width: 100%;*/
 }
 
 div #bott-3{
     border-radius: 50%;
     float: right;
-    padding-top: 30px;
+    /*padding: 50%;
     /*width: 100%;*/
 }
 
