@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DCE2F2;
+}
+
+
+header{
+    width: 0%;
+    background-color: #8C7737;
+    border-bottom: 2px #000 solid;
+    font-size: x-small;
+
+}
+header li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+header li a:hover {
+    background-color: #BFA760;
+    color: white;
+}
+li a{
+    display: inline;
+    color: black;
+    background-color: #BFA041;
+    text-decoration: none;
+
+
+
+}
+li a:hover{
+    color: black;
+    background-color: #F2F2F2;
+}
+
+.tarjeta{
+    background-color: brown;
+}
+
+/*Diferenciar cajas, borrar al final
+.raw{
+ border: 2px #000 solid;   
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
