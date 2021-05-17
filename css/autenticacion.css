@@ -1,21 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+/*Inicio menu*/
+#logo{
+    border-radius: 50%;
+    float: left;
+    justify-content: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
-
+#menu{
+    padding: 2% 5% 2% 5%;
+}
 
 
 
 
 
 /*footer*/
-
-footer div{
-    background-color: black;
-    color: white;
-    margin: 2%;
-}
-
-
-/*  ojo */
 
 footer{
     background-color: black;
@@ -30,7 +36,6 @@ footer{
 }
 
 
-
 /**/
 div #bott-1 {
     float: left;
@@ -43,23 +48,23 @@ div #bott-2{
 }
 
 div #bott-3{
+    border-radius: 50%;
     float: right;
+    /*padding: 50%;
     /*width: 100%;*/
-}   
+}
 
-/* ojo 2 */
-/*Diferenciar cajas, borrar al final*/
+/*Diferenciar cajas, borrar al final
 .raw{
-    border: 2px #000 solid;   
-   }
-   
-   
-   
-   .grid-container {
-       display: grid;
-       grid-template-columns: 80px 200px auto 30px;
-       grid-gap: 10px;
-       background-color: #2196F3;
-       padding: 10px;
-     }
-     /*  */
+ border: 2px #000 solid;   
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
