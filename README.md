@@ -7,4 +7,4 @@ Daniel Caro (Soqus)
 Sebastian Torres (rodrigosebastiantorresr)
 Luciano Porto
 
-## Lider de grupo: Daniel Caronidos  
+## Lider de grupo: Daniel Caro
