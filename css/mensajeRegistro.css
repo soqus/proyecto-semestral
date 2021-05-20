@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* incio Header*/
 body{
     background-color: #DCE2F2;
 }
@@ -40,8 +41,60 @@ li a:hover{
     background-color: #F2F2F2;
 }
 
-.tarjeta{
-    background-color: brown;
+
+    
+
+/*Fin header*/
+
+/*Inicio menu*/
+#logo{
+    border-radius: 50%;
+    float: left;
+    justify-content: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#menu{
+    padding: 2% 5% 2% 5%;
+}
+
+
+/* Trabajar aquí */
+
+
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+.contacto{
+    padding-top: 30px;
+}
+.quienes{
+    padding-top: 30px;
+}
+
+
+/**/
+div #bott-1 {
+    float: left;
+    /*width: %;*/
+}
+
+div #bott-2{
+    float: left;
+    /*width: 100%;*/
+}
+
+div #bott-3{
+    border-radius: 50%;
+    float: right;
+    /*padding: 50%;
+    /*width: 100%;*/
 }
 
 /*Diferenciar cajas, borrar al final

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecanicos Rayo Makween</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/trabajos_realizados.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="raw">
+    <div class="row">
         <header class="col ">
             <ul class="nav justify-content-end">
                 <li class="nav-item">
@@ -34,12 +34,15 @@
             </ul>
         </header>
     </div>
+
     <!-- Logo -->
-    <div class="raw">
+    <div class="row">
         <div class="col-3" id="logo">
             <img id="logo" src="img/Gnu.png" alt="Error...">
         </div>
-        <div class="col-9" id="menu">
+
+        <!-- menu -->
+        <div class="col-6" id="menu">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">Inicio</a>
@@ -56,9 +59,10 @@
             </ul>
         </div>
     </div>
+
     <!-- Boton buscar -->
-    <div class="raw">
-        <div class="col">
+    <div class="row">
+        <div class="col-12">
             <nav id="buscar" class="nav justify-content-center">
                 <form class="d-flex flex-column bd-highlight mb-3" action="/action_page.php">
                     <input class="form-control mr-sm-2" type="text" placeholder="Ingrese nro de orden">
@@ -67,118 +71,120 @@
             </nav>
         </div>
     </div>
-
+<br>    
     <!-- Trabajos -->
+    
+<div class="linea">
     <div class="row">
         <div class="col-4">
-            <div class="card-body">
-                <h5 class="card-title">Orden #002135</h5>
-            </div>
-            <div class="col"><img src="img/audi.jpg" class="img-thumbnail" alt="..."></div>
-            <div>
-                <p class="card-text">Cambio de bateria y ajustes en el motor.</p>
-                <br>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Mecanico acargo: Sebastian Rojas</li>
-                <li class="list-group-item">Cambio hace 1 año.</li>
-                <li class="list-group-item">Sin volver al mecanico.</li>
-                <li class="list-group-item">Marca: AUDI</li>
-            </ul>
-        </div>
-        <div class="col-4">
-            <div class="card-body">
-                <h5 class="card-title">Orden #0012546</h5>
-            </div>
-            <div class="col"><img src="img/bmw.jpg" class="img-thumbnail" alt="..."></div>
-            <div>
-                <p class="card-text">Cambio de Motor y ajustes de bujias.</p>
-                <br>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Mecanico acargo: Fernanda Camus.</li>
-                <li class="list-group-item">Cambio hace 2 año.</li>
-                <li class="list-group-item">Sin volver al mecanico.</li>
-                <li class="list-group-item">Marca: BMW</li>
-            </ul>
-        </div>
-
-        <div class="col-4">
-            <div class="card-body">
-                <h5 class="card-title">Orden #0056425</h5>
-            </div>
-            <div class="col"><img src="img/Porsche.jpg" class="img-thumbnail" alt="..."></div>
-            <div>
-                <p class="card-text">Cambio de frenos.</p>
-                <br>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Mecanico acargo: Fernando Sanchez.</li>
-                <li class="list-group-item">Cambio hace 6.</li>
-                <li class="list-group-item">Sin volver al mecanico.</li>
-                <li class="list-group-item">Marca: Porsche</li>
-            </ul>
-            <br>
-            <br>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-4">
-            <div class="card-body">
-                <h5 class="card-title">Orden #0032562</h5>
-            </div>
-            <div class="col"><img src="img/Subaru.jpg" class="img-thumbnail" alt="..."></div>
-            <div>
-                <p class="card-text">Cambio de bateria y ajustes en el motor.</p>
-                <br>
-            </div>
-            <ul class="list-group ilst-group-flush">
-                <li class="list-group-item">Mecanico acargo: Sebastian Rojas</li>
-                <li class="list-group-item">Cambio hace 1 año.</li>
-                <li class="list-group-item">Sin volver al mecanico.</li>
-                <li class="list-group-item">Marca: Subaru </li>
-            </ul>
-        </div>
-        <div class="col-4">
-            <div class="tarjeta">
+            <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Orden #0035625</h5>
+                    <h5 class="card-title">Orden #0045621</h5>
+                </div>
+                <div class="col"><img src="img/Peugeot.jpg" class="img-thumbnail" alt="..."></div>
+                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Marca: Peugeot</li>
+                    <li class="list-group-item">Mecanico a cargo: Fernando Sanchez.</li>
+                    <li class="list-group-item">Procedimiento: Cambio de frenos.</li>
+                    <li class="list-group-item">Vuelve: No </li>
+                  </ul>
+            </div>
+
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Orden #0045621</h5>
                 </div>
                 <div class="col"><img src="img/chevrolet.jpg" class="img-thumbnail" alt="..."></div>
-                <div>
-                    <p class="card-text">Cambio de Motor y ajustes de bujias.</p>
-                    <br>
-                </div>
+                <br>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Mecanico acargo: Fernanda Camus.</li>
-                    <li class="list-group-item">Cambio hace 2 año.</li>
-                    <li class="list-group-item">Sin volver al mecanico.</li>
                     <li class="list-group-item">Marca: Chevrolet</li>
-                </ul>
+                    <li class="list-group-item">Mecanico a cargo: Fernanda Camus.</li>
+                    <li class="list-group-item">Procedimiento: Cambio de Motor y ajustes de bujias.</li>
+                    <li class="list-group-item">Vuelve: No</li>
+                </ul> 
             </div>
+            <br>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Orden #0045621</h5>
+                </div>
+                <div class="col"><img src="img/Subaru.jpg" class="img-thumbnail" alt="..."></div>
+                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Marca: Subaru</li>
+                    <li class="list-group-item">Mecanico acargo: Sebastian Rojas</li>
+                    <li class="list-group-item">Cambio de bateria y ajustes en el motor.</li>
+                    <li class="list-group-item">Vuelve: No </li>
+                  </ul>
+            </div>
+
         </div>
 
+    </div>
+</div>
+
+<div class="linea">
+    <div class="row">
         <div class="col-4">
-            <div class="card-body">
-                <h5 class="card-title">Orden #0045621</h5>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Orden #0045621</h5>
+                </div>
+                <div class="col"><img src="img/audi.jpg" class="img-thumbnail" alt="..."></div>
+                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Marca: Audi</li>
+                    <li class="list-group-item">Mecanico a cargo: Sebastian Rojas</li>
+                    <li class="list-group-item">Procedimiento: Cambio de batetría y ajustes en el motor.</li>
+                    <li class="list-group-item">Vuelve: No </li>
+                  </ul>
             </div>
-            <div class="col"><img src="img/Peugeot.jpg" class="img-thumbnail" alt="..."></div>
-            <div>
-                <p class="card-text">Cambio de frenos.</p>
+
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Orden #0045621</h5>
+                </div>
+                <div class="col"><img src="img/bmw.jpg" class="img-thumbnail" alt="..."></div>
+                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Marca: BMW</li>
+                    <li class="list-group-item">Mecanico a cargo: Fernanda Camus</li>
+                    <li class="list-group-item">Procedimiento: Revision de luces</li>
+                    <li class="list-group-item">Vuelve: No</li>
+                </ul> 
+                </div>
                 <br>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Mecanico acargo: Fernando Sanchez.</li>
-                <li class="list-group-item">Cambio hace 6.</li>
-                <li class="list-group-item">Sin volver al mecanico.</li>
-                <li class="list-group-item">Marca: Peugeot</li>
-            </ul>
-            <br>
-            <br>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Orden #0045621</h5>
+                </div>
+                <div class="col"><img src="img/Porsche.jpg" class="img-thumbnail" alt="..."></div>
+                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Marca: Porsche</li>
+                    <li class="list-group-item">Mecanico acargo: Fernando Sanchez</li>
+                    <li class="list-group-item">Cambio de aceite</li>
+                    <li class="list-group-item">Vuelve: No </li>
+                  </ul>
+            </div>
+
         </div>
+
     </div>
+</div>
+
+
     <footer>
-        <div class="raw">
+        <div class="row">
             <div class="col-3" id="bott-1">
                 <h2 class="contacto">
                     Contactanos:</h2>

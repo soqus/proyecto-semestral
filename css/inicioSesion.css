@@ -41,9 +41,6 @@ li a:hover{
   background-color: #F2F2F2;
 }
 
-
-  
-
 /*Fin header*/
 
 /*Inicio menu*/
@@ -58,13 +55,36 @@ li a:hover{
 #menu{
   padding: 2% 5% 2% 5%;
 }
-  
+
+/* Fin menu */
 
 
-/* Trabajar aqui */
+.card{
+  margin-right: 40%;
+  margin-left: 450px;
+  padding: 10px;
+  background-color: #afaa9c;
+}
+#emailHelp{
+  font-size: x-small;
+}
 
+#chkTerminos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
 
+}
 
+ form a {
+  color: #000;
+  background-color: #8C7737;
+  text-decoration: none;
+}
+form a:hover{
+  color: white;
+  background-color: #BFA041;
+  text-decoration: none;
+}
 
 /*footer*/
 
@@ -99,7 +119,7 @@ div #bott-3{
   /*width: 100%;*/
 }
 
-/*Diferenciar cajas, borrar al final
+Diferenciar cajas, borrar al final
 .raw{
 border: 2px #000 solid;   
 }
