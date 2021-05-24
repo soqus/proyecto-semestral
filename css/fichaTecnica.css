@@ -90,7 +90,9 @@ article{
 footer{
     background-color: black;
     color: white;
-    height: 233px;
+    height: 270px;
+    
+    
 }
 .contacto{
     padding-top: 30px;
@@ -114,6 +116,8 @@ div #bott-2{
 div #bott-3{
     border-radius: 50%;
     float: right;
+    padding-left: 200px;
+    padding-top: 50px;
     /*padding: 50%;
     /*width: 100%;*/
 }
