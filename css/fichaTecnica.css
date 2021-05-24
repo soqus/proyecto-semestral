@@ -63,9 +63,26 @@ li a:hover{
 /* trabajar aqui */
 
 
+/* centrando main */
+main{
+    
+    text-align: center;
+    padding-left: 659px;
+    padding-right: 750px;
+    padding-bottom: 5px;
 
+}
+h1{
+    text-align: center;
+}
 
-
+article{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #8C7737;
+    
+}
 
 
 /*footer*/
@@ -73,7 +90,9 @@ li a:hover{
 footer{
     background-color: black;
     color: white;
-    height: 300px;
+    height: 270px;
+    
+    
 }
 .contacto{
     padding-top: 30px;
@@ -97,6 +116,8 @@ div #bott-2{
 div #bott-3{
     border-radius: 50%;
     float: right;
+    padding-left: 200px;
+    padding-top: 50px;
     /*padding: 50%;
     /*width: 100%;*/
 }

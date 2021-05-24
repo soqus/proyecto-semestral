@@ -7,41 +7,40 @@
   /* incio Header*/
   body{
     background-color: #DCE2F2;
-  }
-  
-  
-  header{
+}
+
+
+header{
     width: 0%;
     background-color: #8C7737;
     border-bottom: 2px #000 solid;
     font-size: x-small;
-  
-  }
-  header li a {
+
+}
+header li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-  }
-  header li a:hover {
+}
+header li a:hover {
     background-color: #BFA760;
     color: white;
-  }
-  li a{
+}
+li a{
     display: inline;
     color: black;
     background-color: #BFA041;
     text-decoration: none;
-  
-  
-  
-  }
-  li a:hover{
+
+
+
+}
+li a:hover{
     color: black;
     background-color: #F2F2F2;
-  }
-  
-  /*Fin header*/
+}
+/*Fin header*/
   
   /*Inicio menu*/
   #logo{
@@ -59,48 +58,62 @@
   /* Fin menu */
 
 
+main{
+      padding-left: 290px;
+      padding-bottom: 30px;
+      margin-right: 100px;
+}
+
+
+
+
+
 
   /*footer*/
 
-footer{
+  footer{
     background-color: black;
     color: white;
-    height: 300px;
-  }
-  .contacto{
+    height: 229px;
+    margin:0 auto;
+    
+}
+.contacto{
     padding-top: 30px;
-  }
-  .quienes{
+}
+.quienes{
     padding-top: 30px;
-  }
-  
-  
-  /**/
-  div #bott-1 {
+}
+
+
+/**/
+div #bott-1 {
     float: left;
     /*width: %;*/
-  }
-  
-  div #bott-2{
+}
+
+div #bott-2{
     float: left;
     /*width: 100%;*/
-  }
-  
-  div #bott-3{
-    border-radius: 50%;
+}
+
+div #bott-3{
+    border-radius: 40%;
     float: right;
+    padding-left: 200px;
+    padding-top: 50px;
     /*padding: 50%;
     /*width: 100%;*/
-  }
-  
-  Diferenciar cajas, borrar al final
-  .raw{
-  border: 2px #000 solid;   
-  }
-  
-  
-  
-  .grid-container {
+}
+
+/*Diferenciar cajas, borrar al final
+.raw{
+ border: 2px #000 solid;   
+}
+
+
+
+.grid-container {
     display: grid;
     grid-template-columns: 80px 200px auto 30px;
     grid-gap: 10px;

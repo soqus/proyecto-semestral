@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ficha Técnica</title>
+    <title>Ficha Tecnica</title>
+    <!-- bootstrap y css -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fichaTecnica.css">
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+
 </head>
+<body>
 
 <!-- Menu de incio sesion -->
-<body>
   <div class="raw">
     <header class="col ">
       <ul class="nav justify-content-end">
@@ -48,48 +52,59 @@
       </ul>
     </div>
   </div>
+<!-- work here -->
 
-  <!-- trabajar aqui -->
 
-    <header>
-        <h1>Ficha Tecnica</h1>
-    </header>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-           <label for="inputEmail4">Nombre del cliente</label>
-           <input type="email" class="form-control" id="inputEmail4">
-        </div>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-           <label for="inputEmail4">Diagnostico</label>
-           <input type="email" class="form-control" id="inputEmail4">
-        </div>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-           <label for="inputEmail4">Nombre mecanico acargo</label>
-           <input type="email" class="form-control" id="inputEmail4">
-        </div>
+<!-- formulario -->
+<main>
+    <!-- background -->
+  <article>
+    <h1>Ficha Tecnica</h1>
     <div class="form-group">
-           <label for="exampleFormControlTextarea1">Materiales utilizados</label>
-           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-    <div class="form-group">
-           <label for="exampleFormControlTextarea1">Comentario del mecanico</label>
-           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+        <label for="inputEmail4">Datos cliente:</label>
+       <input type="email" class="form-control" id="inputEmail4">
+  </div>  
+  <div class="form-group">
+       <label for="inputEmail4">Diagnostico:</label>
+       <input type="email" class="form-control" id="inputEmail4">
+  </div>  
+  <div class="form-group">
+       <label for="inputEmail4">Mecánicos a cargo:</label>
+       <input type="email" class="form-control" id="inputEmail4">
+    
+  </div>
+<div class="form-group">
+       <label for="exampleFormControlTextarea1">Materiales utilizados:</label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+<div class="form-group">
+       <label for="exampleFormControlTextarea1">Comentarios:</label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  <div class="form-group">
+       <label for="inputEmail4">Fecha:</label>
+       <input type="email" class="form-control" id="inputEmail4">
+    </div>
+  </div>
+<form>
     <div class="form-row">
-        <div class="form-group col-md-6">
-           <label for="inputEmail4">Fecha</label>
-           <input type="email" class="form-control" id="inputEmail4">
-        </div>
-    <form>
-        <div class="form-group">
-           <label for="exampleFormControlFile1">Adjuntar archivo</label>
-           <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        </div>
-    </form>
-    <button type="button" class="btn btn-primary">Archivar ficha</button>
-</body>
+       <label for="exampleFormControlFile1">Adjuntar archivo</label>
+       <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+</form>
+        <button type="button" class="btn btn-primary">Enviar solicitud</button>
+    </article>
+    <!-- fin background -->
+</main>
+<!-- fin formulario krøsh -->
+
+
+
+
+
+
+
+
 
 
 
@@ -121,7 +136,4 @@
     </div>
   </footer>
 </body>
-</html>
-
-
 </html>
