@@ -46,7 +46,8 @@ li a:hover{
 main{
     
     text-align: center;
-
+    height: 666px;
+    padding-top: 200px;
 }
 
 
@@ -64,6 +65,7 @@ footer{
     background-color: black;
     color: white;
     height: 270px;
+    
     
 }
 .contacto{
