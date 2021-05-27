@@ -8,7 +8,8 @@
   <title>Registro Usuario</title>
   <!-- Link del css -->
   <link rel="Stylesheet" href="css/registro.css">
-
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
   <!-- bootstrap del inicio registro/iniciar sesion-->
   <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -20,16 +21,14 @@
     <header class="col ">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Iniciar Sesión</a>
+          <a class="nav-link" href="iniciosesion.html">Iniciar sesion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Registrar</a>
+          <a class="nav-link" href="registrousuario.html">Registrar</a>
         </li>
       </ul>
     </header>
   </div>
-
-
   <!-- capa del centro -->
   <main>
     <h1>¿Eres nuevo?</h1>
@@ -39,10 +38,18 @@
         <h2>Contraseña:<input type="password" name="nombre" /></h2>
         <h2>Confirmar Contraseña:<input type="password" name="nombre" /></h2>
         <!-- <input type="button" value="botón normal" name="boton1" > -->
+        <h2>Region</h2>
+        <h5  id="region"></h5>
+        <select name="combo" id="region">
+          <option value="1" selected>--Regiones--</option>
+          <option value="2">Arica</option>
+          <option value="3">Valparaiso</option>
+          <option value="4">Metropolitana</option>
+        </select>
+<br>
+<br>
         <a class="btn btn-primary" href="mensajeregistroL1.html" role="button">Registrar</a>
-        
-
-
+        <a class="btn btn-primary" href="index.html" role="button">No registrar</a>
   </main>
   <!--  fin capa centro -->
   <!-- cm -->
